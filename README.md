@@ -1,6 +1,6 @@
 # Movie Data Exploratory Analysis
 
-Author: Tai Ngoc Bui
+Author: Tai Ngoc Bui <br>
 Date Completion: March 24th, 2024
 
 ## Business Understanding
