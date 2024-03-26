@@ -14,7 +14,8 @@ The dataset used in this analysis extracted from various different movie sources
 * [TheMovieDB](https://www.themoviedb.org/) <br>
 
 As these datasets were collected from different sources, they have different formats. While The Movie DB and the Numbers datasets are compressed as CVS files, the IMDb, the largest dataset among the three, is stored within a SQLite database.<br>
-![IMDb database structure](https://github.com/taingocbui/phase2_project/blob/master/photos/movie_data_erd.jpeg)<br>
+![IMDb database structure](https://github.com/taingocbui/phase2_project/blob/master/photos/movie_data_erd.jpeg)
+
 These datasets not only contain movies' information on their cast, production crew, budget, and revenues, etc. but also the public opinions regarding the movies' success such as ratings and votes.
 
 
