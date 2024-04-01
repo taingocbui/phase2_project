@@ -48,13 +48,13 @@ For this project, I decided to use Return on Investment (ROI) as the core featur
 
 While gross revenue from movie production had steadily increased during the period between 1985 and 2000, return on investment in the industry had been on a slight down trend since. <br>
 Based on ROI, this exploratory analysis answers three questions to our stakeholders
- 1. Which month is best for movie release?
+ ##### 1. Which month is best for movie release?
 ![Released month ROI](https://github.com/taingocbui/phase2_project/blob/main/photos/4.png)
 The chart above shows that July and October are the two months with the highest ROI for movies to be released. However, as July tends to be the month in which blockbuster movies premiered according to budget production analysis, I recommend the stakeholders to prioritize releasing movies in October. 
- 2. Which movie genres should the stakeholders invest in?
+##### 2. Which movie genres should the stakeholders invest in?
   ![Released month ROI](https://github.com/taingocbui/phase2_project/blob/main/photos/6.png)
 The ROI analysis shows that animation, horror, romance, and family movies are movie genres in which investors can receive great returns for their investments. They not only have the highest returns, but also lowest production budget compared to other genres. 
- 3. What directors should the stakeholders select to direct their movies?
+##### 3. What directors should the stakeholders select to direct their movies?
 ![Released month ROI](https://github.com/taingocbui/phase2_project/blob/main/photos/7.png)
 The chart above shows a ranking of top directors based on their movies' ROI. Though James DeMonaco, David Sandberg and Christopher Landon are the top 3 directors based on their movies' ROI, David Sandberg is not included in my recommendation to stakeholders. Unlike the other 2 directors, David's movies have a much higher production budget. Thus, selecting David may lead to a higher production budget, deeming a greater risk to the investment.
 
