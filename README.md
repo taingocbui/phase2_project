@@ -33,14 +33,18 @@ With this project, I will address specific questions such as:
 * What should we learn from the success of past blockbusters?
 
 ## 5. Data Cleaning
-As data is extracted from different sources, each dataset requires different cleaning techniques. As IMDb has the largest dataset among the three sources, it also has the most amount of Nan values and duplicates. As I want to use this dataset to analyze how directors contribute to movies' success, I decide to only keep records in which the person is still alive and the category column is not Nan. With quantitative features such as average ratings and number of votes, I replace Nan values with zero, while the Nan values in runtime minute are replaced with the runtime minutes' mode. <br>
-Unlike IMDb dataset, the Numbers' and the Movie DB's datasets do not have any Nan values or duplicates. However, all quantitative features in the Numbers' dataset such as production budget, and gross revenue are all formatted as string type. To convert these features into float type, I need to remove all special characters $ sign from these strings. On the other hand, the Movie DB's dataset has all movies' genres stored as an id code. Though it looks like data in this genre id column is stored as lists; in fact it is all formatted as string type. As a movie can have multiple different genres, my solution for this column is to split them into multiple columns, each column represent a genre type. If the movie is assigned with a certain genre, that genre type will show as 1 for that column, else will be 0.
+As data is extracted from different sources, each dataset requires different cleaning techniques. 
+* IMDb records with directors who are still alive (the category column is not Nan) are filtered.
+* With IMDb's quantitative features such as average ratings and number of votes, Nan values are replaced with zero, while the runtime minute's Nan values are replaced with the column's mode.
+* The Numbers' and the Movie DB's datasets do not have any Nan values or duplicates. 
+* All quantitative features in the Numbers' dataset such as production budget, and gross revenue are all formatted as string type. To convert these features into float type, all special characters $ sign had to be removed from these strings. 
+* The Movie DB's genre id code needs to be converted to actual genres' names. These genre ids are splitted into multiple columns. Each column's headers is later converted to an actual genre name. 
+* If the movie is assigned with a certain genre, that genre type will show as 1 for that column, else will be 0.
 
 ## 6. Exploratory Data Analysis
-For this project, I decided to use Return on Investment (ROI) as the main measure to compare the sucess of various movies, directors, and producers. 
+For this project, I decided to use Return on Investment (ROI) as the core feature to determine the level of sucess for various movies. This ROI measure is simply a rate between the gross profit (difference between production budget and gross revenue) and the production budget. The reason I use this ratio is that it normalize the difference in scales among movies' production budget and gross revenue. The impact of normalization can see clear in the below visualization. 
 
-# Conclusion
+![Movie revenue and ROI trends](https://github.com/taingocbui/phase2_project/blob/main/photos/1.png)
 
-## Limitations
+## Conclusion
 
-## Recommendations
