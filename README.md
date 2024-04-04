@@ -64,3 +64,9 @@ Based on my exploratory analysis, I have three recommendations for the stakehold
 * Prioritize producing animation, horror, romance, and family movies due to their general low production cost relative to gross revenue and high ROI rate.
 * Prioritize inviting James DeMonaco, Christopher Landon, and Damien Chazelle to be the directors of the company's movies. They not only have great experience in the movie industry but also good track record of turning small budget movies into great returns.
 
+## 8. Future Works
+To better improve the quality of the report, some further works will be considered as follows:
+* A list of recommended actors, producers and writers filtered according to their movies' ROI and average ratings will be my next goals.
+* Besides focusing on analyzing the ROI, a thorough analysis regarding other features, which would potentially impact the art quality of the movies and their popularity among general public viewers, is also needed.
+
+
